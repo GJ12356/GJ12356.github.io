@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<input type="text" class="nav">
+	<button>猜数字</button>
+	<script src="script/jquery.js"></script>
+	<script>
+	var num=Math.floor(Math.random()*10+1);
+      $("button").click(function(){
+      	var value=$(".nav").val();
+          var number=Number(value);
+          if (number===num){
+            alert("回答正确！");
+          }
+          else if (number<num){
+          	alert("小于正确值");
+          }
+          else if(number>num){
+          	alert("大于正确值")
+          }
+      })
+
+	</script>
+</body>
+</html>
