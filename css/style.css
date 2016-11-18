@@ -709,9 +709,9 @@ span.glyphicon.glyphicon-triangle-bottom {
 .contact-section h3 {
   font-size: 1.5em;
 }
-.google-map iframe {
+/*.google-map iframe {
   height: 250px;
-}
+}*/
 .contact-section {
   padding: 1em 0;
 }
